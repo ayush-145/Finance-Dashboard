@@ -1,0 +1,57 @@
+{
+  "name": "finance-dashboard",
+  "version": "1.0.0",
+  "description": "Interactive Finance Dashboard built on Soft UI Dashboard React",
+  "dependencies": {
+    "@emotion/cache": "11.11.0",
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "5.11.16",
+    "@mui/material": "5.13.0",
+    "@mui/styled-engine": "5.12.3",
+    "ajv": "^8.18.0",
+    "ajv-keywords": "^5.1.0",
+    "chart.js": "3.9.1",
+    "chroma-js": "2.4.2",
+    "prop-types": "15.8.1",
+    "react": ">=16.8.0",
+    "react-chartjs-2": "3.0.5",
+    "react-dom": ">=16.8.0",
+    "react-router-dom": "6.11.1",
+    "react-scripts": "5.0.1",
+    "uuid": "9.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "overrides": {
+    "svgo": "3.0.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5"
+  }
+}

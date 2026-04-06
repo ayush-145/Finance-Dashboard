@@ -1,0 +1,151 @@
+/* ── Dark Mode Overrides ── */
+body.dark-mode {
+  background-color: #1a1a2e !important;
+  color: #e0e0e0 !important;
+}
+
+/* Main content area */
+body.dark-mode .MuiBox-root[class*="makeStyles-mainContent"],
+body.dark-mode main {
+  background-color: #1a1a2e !important;
+}
+
+/* Cards */
+body.dark-mode .MuiCard-root {
+  background-color: #1e1e30 !important;
+  color: #e0e0e0 !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Typography */
+body.dark-mode .MuiTypography-root {
+  color: #e0e0e0 !important;
+}
+body.dark-mode .MuiTypography-root[class*="color-text"] {
+  color: #b0b0c0 !important;
+}
+
+/* Sidebar */
+body.dark-mode .MuiDrawer-paper {
+  background-color: #1a1a2e !important;
+}
+body.dark-mode .MuiDrawer-paper .MuiTypography-root {
+  color: #c5c5d5 !important;
+}
+body.dark-mode .MuiDrawer-paper .MuiListItem-root > .MuiBox-root:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Navbar */
+body.dark-mode .MuiToolbar-root {
+  background-color: transparent !important;
+}
+
+/* Inputs */
+body.dark-mode .MuiInputBase-root,
+body.dark-mode .MuiOutlinedInput-root {
+  background-color: #252540 !important;
+  color: #e0e0e0 !important;
+}
+body.dark-mode .MuiInputBase-root input,
+body.dark-mode .MuiOutlinedInput-root input {
+  color: #e0e0e0 !important;
+}
+body.dark-mode .MuiOutlinedInput-notchedOutline {
+  border-color: #3a3a5c !important;
+}
+body.dark-mode .MuiInputLabel-root {
+  color: #8888a0 !important;
+}
+
+/* Select / dropdowns */
+body.dark-mode .MuiSelect-select {
+  color: #e0e0e0 !important;
+}
+body.dark-mode .MuiMenu-paper {
+  background-color: #252540 !important;
+}
+body.dark-mode .MuiMenuItem-root {
+  color: #e0e0e0 !important;
+}
+body.dark-mode .MuiMenuItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Tables */
+body.dark-mode .MuiTableContainer-root {
+  background-color: transparent !important;
+}
+body.dark-mode .MuiTableCell-root {
+  color: #e0e0e0 !important;
+  border-bottom-color: #2a2a45 !important;
+}
+body.dark-mode .MuiTableRow-root:hover {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+/* Buttons — keep gradient buttons unchanged, adjust outlined ones */
+body.dark-mode .MuiButton-outlined {
+  border-color: #4a4a6a !important;
+  color: #c0c0d0 !important;
+}
+
+/* Dialog / Modal */
+body.dark-mode .MuiDialog-paper {
+  background-color: #1e1e30 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Badges */
+body.dark-mode .MuiBadge-badge {
+  background-color: #4a4a6a !important;
+}
+
+/* Scrollbar */
+body.dark-mode ::-webkit-scrollbar {
+  width: 8px;
+}
+body.dark-mode ::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: #3a3a5c;
+  border-radius: 4px;
+}
+
+/* Footer */
+body.dark-mode footer .MuiTypography-root {
+  color: #6a6a80 !important;
+}
+
+/* Configurator panel */
+body.dark-mode .MuiDrawer-paper[class*="configurator"] {
+  background-color: #1e1e30 !important;
+}
+
+/* Soft UI specific gradient cards — keep their gradients */
+body.dark-mode .MuiBox-root[class*="variant-gradient"] {
+  /* intentionally empty — preserve gradient backgrounds */
+  background: inherit;
+}
+
+/* Chart canvas backgrounds */
+body.dark-mode canvas {
+  filter: brightness(0.95);
+}
+
+/* Pagination */
+body.dark-mode .MuiPaginationItem-root {
+  color: #c0c0d0 !important;
+}
+
+/* Icon colors in dark mode */
+body.dark-mode .MuiIcon-root {
+  color: #b0b0c8 !important;
+}
+
+/* Tooltip */
+body.dark-mode .MuiTooltip-tooltip {
+  background-color: #252540 !important;
+  color: #e0e0e0 !important;
+}
