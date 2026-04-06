@@ -46,7 +46,9 @@
     "react-dom": ">=16.8.0"
   },
   "overrides": {
-    "svgo": "3.0.2"
+    "svgo": "3.0.2",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2"
   },
   "devDependencies": {
     "eslint-config-prettier": "^10.1.8",
